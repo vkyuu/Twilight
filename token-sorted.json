@@ -1366,6 +1366,12 @@
         "value": "underline",
         "type": "textDecoration"
       }
+    },
+    "size": {
+      "sm": {
+        "value": "8",
+        "type": "sizing"
+      }
     }
   }
 }
