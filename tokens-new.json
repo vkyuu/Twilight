@@ -1277,8 +1277,26 @@
               "value": "{color.gray.300}",
               "type": "color"
             },
-            "white": {
+            "surface": {
               "value": "{color.white}",
+              "type": "color"
+            }
+          },
+          "accent": {
+            "bold": {
+              "value": "{color.primary.bold}",
+              "type": "color"
+            },
+            "normal": {
+              "value": "{color.primary.normal}",
+              "type": "color"
+            },
+            "mute": {
+              "value": "{color.primary.mute}",
+              "type": "color"
+            },
+            "subtle": {
+              "value": "{color.primary.subtle}",
               "type": "color"
             }
           }
@@ -1299,6 +1317,28 @@
             },
             "subtle": {
               "value": "{color.gray.50}",
+              "type": "color"
+            },
+            "onSurface": {
+              "value": "{color.white}",
+              "type": "color"
+            }
+          },
+          "accent": {
+            "bold": {
+              "value": "{color.primary.bold}",
+              "type": "color"
+            },
+            "normal": {
+              "value": "{color.primary.normal}",
+              "type": "color"
+            },
+            "mute": {
+              "value": "{color.primary.mute}",
+              "type": "color"
+            },
+            "subtle": {
+              "value": "{color.primary.subtle}",
               "type": "color"
             }
           }
