@@ -349,28 +349,6 @@
       "type": "opacity"
     }
   },
-  "primary": {
-    "color": {
-      "primary": {
-        "bold": {
-          "value": "{color.purple.800}",
-          "type": "color"
-        },
-        "normal": {
-          "value": "{color.purple.700}",
-          "type": "color"
-        },
-        "mute": {
-          "value": "{color.purple.300}",
-          "type": "color"
-        },
-        "subtle": {
-          "value": "{color.purple.50}",
-          "type": "color"
-        }
-      }
-    }
-  },
   "typography": {
     "fontFamily": {
       "inter": {
@@ -1069,5 +1047,170 @@
       }
     }
   },
+  "primary": {
+    "color": {
+      "primary": {
+        "bold": {
+          "value": "{color.purple.800}",
+          "type": "color"
+        },
+        "normal": {
+          "value": "{color.purple.700}",
+          "type": "color"
+        },
+        "mute": {
+          "value": "{color.purple.300}",
+          "type": "color"
+        },
+        "subtle": {
+          "value": "{color.purple.50}",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "elevation": {
+    "elevation": {
+      "xs": {
+        "value": {
+          "color": "#1018280d",
+          "type": "dropShadow",
+          "x": "0",
+          "y": "1",
+          "blur": "2",
+          "spread": "0"
+        },
+        "type": "boxShadow"
+      },
+      "sm": {
+        "value": [
+          {
+            "color": "#1018280f",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "1",
+            "blur": "2",
+            "spread": "0"
+          },
+          {
+            "color": "#1018281a",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "1",
+            "blur": "3",
+            "spread": "0"
+          }
+        ],
+        "type": "boxShadow"
+      },
+      "md": {
+        "value": [
+          {
+            "color": "#1018280f",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "2",
+            "blur": "4",
+            "spread": "-2"
+          },
+          {
+            "color": "#1018281a",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "4",
+            "blur": "8",
+            "spread": "-2"
+          }
+        ],
+        "type": "boxShadow"
+      },
+      "lg": {
+        "value": [
+          {
+            "color": "#10182805",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "4",
+            "blur": "6",
+            "spread": "-2"
+          },
+          {
+            "color": "#10182814",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "12",
+            "blur": "16",
+            "spread": "-4"
+          }
+        ],
+        "type": "boxShadow"
+      },
+      "xl": {
+        "value": [
+          {
+            "color": "#10182805",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "8",
+            "blur": "8",
+            "spread": "-4"
+          },
+          {
+            "color": "#10182814",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "20",
+            "blur": "24",
+            "spread": "-4"
+          }
+        ],
+        "type": "boxShadow"
+      },
+      "2xl": {
+        "value": {
+          "color": "#1018281a",
+          "type": "dropShadow",
+          "x": "0",
+          "y": "24",
+          "blur": "48",
+          "spread": "-12"
+        },
+        "type": "boxShadow"
+      },
+      "3xl": {
+        "value": {
+          "color": "#10182814",
+          "type": "dropShadow",
+          "x": "0",
+          "y": "32",
+          "blur": "64",
+          "spread": "-12"
+        },
+        "type": "boxShadow"
+      },
+      "lg-inversed": {
+        "value": [
+          {
+            "color": "#1018280d",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "-8",
+            "blur": "16",
+            "spread": "-4"
+          },
+          {
+            "color": "#00000005",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "-2",
+            "blur": "4",
+            "spread": "0"
+          }
+        ],
+        "type": "boxShadow"
+      }
+    }
+  },
+  "focusRing": {},
   "$themes": []
 }
