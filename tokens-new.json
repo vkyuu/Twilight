@@ -1,8 +1,30 @@
 {
   "color": {
-    "0": {
-      "value": "#00000000",
-      "type": "opacity"
+    "opacity": {
+      "0": {
+        "value": "#00000000",
+        "type": "opacity"
+      },
+      "shade-10": {
+        "value": "#1d29391a",
+        "type": "opacity"
+      },
+      "shade-16": {
+        "value": "#1d293929",
+        "type": "opacity"
+      },
+      "shade-60": {
+        "value": "#1d293999",
+        "type": "opacity"
+      },
+      "tint-10": {
+        "value": "#ffffff1a",
+        "type": "opacity"
+      },
+      "tint-16": {
+        "value": "#ffffff29",
+        "type": "opacity"
+      }
     },
     "color": {
       "white": {
@@ -335,26 +357,6 @@
           "type": "color"
         }
       }
-    },
-    "shade-10": {
-      "value": "#1d29391a",
-      "type": "opacity"
-    },
-    "shade-16": {
-      "value": "#1d293929",
-      "type": "opacity"
-    },
-    "shade-60": {
-      "value": "#1d293999",
-      "type": "opacity"
-    },
-    "tint-10": {
-      "value": "#ffffff1a",
-      "type": "opacity"
-    },
-    "tint-16": {
-      "value": "#ffffff29",
-      "type": "opacity"
     }
   },
   "typography": {
@@ -1276,10 +1278,6 @@
             "subtle": {
               "value": "{color.gray.300}",
               "type": "color"
-            },
-            "surface": {
-              "value": "{color.white}",
-              "type": "color"
             }
           },
           "accent": {
@@ -1342,9 +1340,35 @@
               "type": "color"
             }
           }
+        },
+        "surface": {
+          "normal": {
+            "value": "{color.white}",
+            "type": "color"
+          },
+          "mute": {
+            "value": "{color.white}",
+            "type": "color"
+          }
+        },
+        "stateLayer": {
+          "hover": {
+            "value": "{opacity.shade-10}",
+            "type": "color"
+          }
         }
       }
     }
   },
-  "$themes": []
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "color",
+      "typography",
+      "elevation",
+      "focusRing",
+      "primary",
+      "theme"
+    ]
+  }
 }
