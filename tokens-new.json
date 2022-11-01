@@ -359,6 +359,28 @@
       }
     }
   },
+  "primary": {
+    "color": {
+      "primary": {
+        "bold": {
+          "value": "{color.purple.800}",
+          "type": "color"
+        },
+        "normal": {
+          "value": "{color.purple.700}",
+          "type": "color"
+        },
+        "mute": {
+          "value": "{color.purple.300}",
+          "type": "color"
+        },
+        "subtle": {
+          "value": "{color.purple.50}",
+          "type": "color"
+        }
+      }
+    }
+  },
   "typography": {
     "fontFamily": {
       "inter": {
@@ -1236,28 +1258,6 @@
       }
     }
   },
-  "primary": {
-    "color": {
-      "primary": {
-        "bold": {
-          "value": "{color.purple.800}",
-          "type": "color"
-        },
-        "normal": {
-          "value": "{color.purple.700}",
-          "type": "color"
-        },
-        "mute": {
-          "value": "{color.purple.300}",
-          "type": "color"
-        },
-        "subtle": {
-          "value": "{color.purple.50}",
-          "type": "color"
-        }
-      }
-    }
-  },
   "theme": {
     "color": {
       "theme": {
@@ -1282,19 +1282,19 @@
           },
           "accent": {
             "bold": {
-              "value": "{color.primary.bold}",
+              "value": "{color.purple.800}",
               "type": "color"
             },
             "normal": {
-              "value": "{color.primary.normal}",
+              "value": "{color.purple.700}",
               "type": "color"
             },
             "mute": {
-              "value": "{color.primary.mute}",
+              "value": "{color.purple.300}",
               "type": "color"
             },
             "subtle": {
-              "value": "{color.primary.subtle}",
+              "value": "{color.purple.50}",
               "type": "color"
             }
           }
@@ -1324,19 +1324,19 @@
           },
           "accent": {
             "bold": {
-              "value": "{color.primary.bold}",
+              "value": "{color.purple.800}",
               "type": "color"
             },
             "normal": {
-              "value": "{color.primary.normal}",
+              "value": "{color.purple.700}",
               "type": "color"
             },
             "mute": {
-              "value": "{color.primary.mute}",
+              "value": "{color.purple.300}",
               "type": "color"
             },
             "subtle": {
-              "value": "{color.primary.subtle}",
+              "value": "{color.purple.50}",
               "type": "color"
             }
           }
@@ -1350,12 +1350,6 @@
             "value": "{color.white}",
             "type": "color"
           }
-        },
-        "stateLayer": {
-          "hover": {
-            "value": "{opacity.shade-10}",
-            "type": "color"
-          }
         }
       }
     }
@@ -1364,10 +1358,10 @@
   "$metadata": {
     "tokenSetOrder": [
       "color",
+      "primary",
       "typography",
       "elevation",
       "focusRing",
-      "primary",
       "theme"
     ]
   }
