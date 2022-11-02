@@ -77,7 +77,7 @@
           "type": "color"
         },
         "900": {
-          "value": "#7A271A",
+          "value": "#7a271a",
           "type": "color"
         }
       },
@@ -165,21 +165,21 @@
           "type": "color"
         },
         "800": {
-          "value": "#05603A",
+          "value": "#05603a",
           "type": "color"
         },
         "900": {
-          "value": "#05603A",
+          "value": "#05603a",
           "type": "color"
         }
       },
       "dark-blue": {
         "25": {
-          "value": "#d5d8dc",
+          "value": "#eaeced",
           "type": "color"
         },
         "50": {
-          "value": "#bfc5ca",
+          "value": "#d5d8dc",
           "type": "color"
         },
         "100": {
