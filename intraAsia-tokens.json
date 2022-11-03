@@ -1111,12 +1111,12 @@
     "focusRing": {
       "accent": {
         "value": {
-          "x": "0",
-          "y": "0",
-          "blur": "0",
-          "spread": "4",
-          "color": "rgba({color.primary.normal}, 0.1)",
-          "type": "dropShadow"
+          "color": "#3696d11a",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "spread": 4
         },
         "type": "boxShadow"
       },
@@ -1124,10 +1124,10 @@
         "value": {
           "color": "#f2f4f7",
           "type": "dropShadow",
-          "x": "0",
-          "y": "0",
-          "blur": "0",
-          "spread": "4"
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "spread": 4
         },
         "type": "boxShadow"
       },
@@ -1135,10 +1135,10 @@
         "value": {
           "color": "#fee4e2",
           "type": "dropShadow",
-          "x": "0",
-          "y": "0",
-          "blur": "0",
-          "spread": "4"
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "spread": 4
         },
         "type": "boxShadow"
       }
